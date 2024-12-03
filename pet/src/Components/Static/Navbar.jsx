@@ -5,6 +5,7 @@ import Wrapper from '../HOC/Wrapper';
 import './home.css'
 import { useEffect } from 'react';
 import { CiMenuKebab } from "react-icons/ci";
+import {Button} from "react-bootstrap"
  
 const Navbar = () => {
 const [currentIndex, setcurrentIndex] = useState(0)
@@ -76,6 +77,7 @@ const [open, setopen] = useState(false)
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
+ <Button style={{margin:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
     </div> 
     </div> 
     <div style={{background:'black',width:"100%",height:"2px", marginBottom:"2px"}}/>
