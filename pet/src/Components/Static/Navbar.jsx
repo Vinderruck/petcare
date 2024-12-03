@@ -58,14 +58,17 @@ const [currentIndex, setcurrentIndex] = useState(0)
         src={slide.src} alt={slide.alt} className={`slide  ${index === currentIndex ? "active" : ""}`}/>
         )
       })}
-      </div>
-      </div>
-    <div style={{background:'black',width:"100%",height:"2px", marginBottom:"2px"}}/>
-    <p>
+   
+    
+  
+  <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", borderRadius:"10px", height:"auto"}}> <p>
       Your pet's happiness, health, and well-being are our top priorities. At
-      [Your Site Name], we provide exceptional care, trusted advice, and a
+      Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
+    </div> 
+    </div>   </div>
+    <div style={{background:'black',width:"100%",height:"2px", marginBottom:"2px"}}/>
    
 
     </main>
