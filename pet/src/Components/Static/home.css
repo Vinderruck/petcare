@@ -31,9 +31,23 @@ gap: 1rem;
     height:2px;
 }
 
+.NavIcon{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin:4px;
 
+}
+.smIcon{
+    width:100%;
+    height:100%;
+    padding:0.2rem
+}
 
-@media screen and (Max-width:550px){
+@media screen and (Max-width:565px){
+    .NavbarRight{
+        display:none
+    }
     .container{
         width:80%
     }

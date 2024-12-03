@@ -4,6 +4,7 @@ import {catdog, catplaying, catsitting, dogjump, Dogtraining, dogtreament, logo2
 import Wrapper from '../HOC/Wrapper';
 import './home.css'
 import { useEffect } from 'react';
+import { CiMenuKebab } from "react-icons/ci";
  
 const Navbar = () => {
 const [currentIndex, setcurrentIndex] = useState(0)
@@ -44,6 +45,8 @@ const [currentIndex, setcurrentIndex] = useState(0)
     <Link to="#" className="navLinks">Service offered</Link>
     <Link to="#" className="navLinks">Booking </Link>
     </div>
+   <div className="NavIcon" style={{width:"35px",height:"35px", boxShadow:"1px 1px 1px 1px black", borderRadius:"10px"}}> 
+    <CiMenuKebab className="smIcon"/></div>
     </div>
     <h1  style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
    
