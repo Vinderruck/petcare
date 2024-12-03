@@ -8,6 +8,7 @@ import { CiMenuKebab } from "react-icons/ci";
  
 const Navbar = () => {
 const [currentIndex, setcurrentIndex] = useState(0)
+const [open, setopen] = useState(false)
 
 
   const slide=[
@@ -46,7 +47,15 @@ const [currentIndex, setcurrentIndex] = useState(0)
     <Link to="#" className="navLinks">Booking </Link>
     </div>
    <div className="NavIcon" style={{width:"35px",height:"35px", boxShadow:"1px 1px 1px 1px black", borderRadius:"10px"}}> 
-    <CiMenuKebab className="smIcon"/></div>
+    <CiMenuKebab  onClick={()=>setopen(!open)} className="smIcon"/>
+    {open &&(
+      <div className="navsmright bg-white" >
+         <Link to="#home" className="navLinks">Home</Link>
+    <Link to="#" className="navLinks">About</Link>
+    <Link to="#" className="navLinks">Service offered</Link>
+    <Link to="#" className="navLinks">Booking </Link>
+      </div>
+    )}</div>
     </div>
     <h1  style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
    
@@ -61,7 +70,8 @@ const [currentIndex, setcurrentIndex] = useState(0)
    
    </div>
   
-  <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", borderRadius:"10px", height:"auto"}}> <p>
+  <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
+     <p className="roboto-light-italic">
       Your pet's happiness, health, and well-being are our top priorities. At
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
