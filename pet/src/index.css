@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logdiv{
+    width:30%;
+  align-items:left;
+  justify-content:right;
+  display:flex;
+
+
+}
+.logo{
+  margin:auto;
+  height:110px;
+  object-fit:cover;
+
+}
+.Navbar{
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    height:110px;
+  box-shadow:1px 1px 4px 2px black;
+
+}
+.NavbarRight{
+
+    justify-content:space-between;
+    align-items:center;
+    margin-right:1rem;
+    
+}
+.navLinks{
+    margin:1rem
+}
+.wrapp{
+    margin-top:-2rem;
+}
