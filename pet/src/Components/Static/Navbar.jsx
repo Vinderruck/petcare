@@ -59,7 +59,7 @@ const [currentIndex, setcurrentIndex] = useState(0)
         )
       })}
    
-    
+   </div>
   
   <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", borderRadius:"10px", height:"auto"}}> <p>
       Your pet's happiness, health, and well-being are our top priorities. At
@@ -67,7 +67,7 @@ const [currentIndex, setcurrentIndex] = useState(0)
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
     </div> 
-    </div>   </div>
+    </div> 
     <div style={{background:'black',width:"100%",height:"2px", marginBottom:"2px"}}/>
    
 
