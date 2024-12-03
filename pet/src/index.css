@@ -3,9 +3,10 @@
 @tailwind utilities;
 .logdiv{
     width:30%;
-  align-items:left;
-  justify-content:right;
+  align-items:center;
+  justify-content:center;
   display:flex;
+  margin-left:4px;
 
 
 }
