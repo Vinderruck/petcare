@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+.lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    
+    font-style: normal;
+    
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;}
 .container{
  width:100%;
  display:flex;
@@ -41,16 +54,35 @@ gap: 1rem;
 .smIcon{
     width:100%;
     height:100%;
-    padding:0.2rem
+    padding:0.2rem;
+    
+}
+.footer{
+    justify-content:space-between;
+    display:flex;
+    align-items: start;
+
+}
+.footerdivs{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    height:auto;
 }
 
 @media screen and (Max-width:565px){
     .NavbarRight{
-        display:none
+        display:none;
     }
     .container{
-        width:80%
+        width:80%;
     }
+    .footer{
+        flex-direction: column;
+    
+}
 }
 @media screen and (Min-width:700px){
     .slide{

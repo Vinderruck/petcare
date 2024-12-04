@@ -80,8 +80,36 @@ const [open, setopen] = useState(false)
  <Button style={{margin:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
     </div> 
     </div> 
-    <div style={{background:'black',width:"100%",height:"2px", marginBottom:"2px"}}/>
-   
+    <div style={{background:"white",width:"100%",height:"1px",justifyContent:"center", display:"flex",alignItems:"center", margin:"6px"}}/>
+   <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
+    <div className="footerdivs">
+      <h2 className="text-[1.5rem] lobster-two-bold">Need help?</h2>
+     <p className="text-[1.2rem] montserrat">Appointment Booking: "Schedule a service here."</p>  
+<p className="text-[1.2rem] montserrat">Need urgent help? Call our emergency line:<br/>  +25400000000"</p>
+<p className="text-[1.2rem] montserrat"> Pet Care Tips for happy and healthy pets!"</p>
+    </div>
+    <div className="footerdivs">
+      <h2  className="text-[1.5rem] lobster-two-bold">Our Service</h2>
+      <p className="text-[1.2rem] montserrat">Home BaseVisit for feeding</p>
+      <p className="text-[1.2rem] montserrat">Administerring medicine</p>
+      <p className="text-[1.2rem] montserrat">More</p>
+    </div>
+    <div  className="footerdivs">
+      <h2  className="text-[1.5rem] lobster-two-bold">Contact Us</h2>
+      <p className="text-[1.2rem] montserrat">We are avalable on :
+        <ul><li>Facebook</li>
+        <li>Whats up</li>
+        <li>Instagram</li>
+        <li>Email</li></ul>
+        Just click the icons on screen
+      </p>
+    </div>
+    <div  className="footerdivs">
+      <h2  className="text-[1.5rem] lobster-two-bold" style={{marginTop:"1rem"}}>Connect $ Chat</h2>
+      <p className="text-[1.2rem] montserrat">We are available to Reply on you <br/>text instantly
+      <br/>so fell free to text us ....</p>
+    </div>
+   </div>
 
     </main>
   )
