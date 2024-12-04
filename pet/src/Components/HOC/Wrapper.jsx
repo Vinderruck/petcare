@@ -10,10 +10,10 @@ const Wrapper = (Component,IdName) => function HOC () {
 
 <Component />
 <div className="Sociamediawrapp">
-  < FaFacebook  className="wrappIcons" />
+  < FaFacebook  className="bg-lime-500 wrappIcons" />
 
-< FaInstagramSquare className="wrappIcons" />
-<FaWhatsappSquare className="wrappIcons"  /></div>
+< FaInstagramSquare className="bg-lime-500 wrappIcons" />
+<FaWhatsappSquare className="bg-lime-500 wrappIcons" /></div>
   </motion.div>
   )
 }
