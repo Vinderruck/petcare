@@ -61,7 +61,7 @@ const [open, setopen] = useState(false)
     <h1  style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
    
    <div style={{width:"80%",justifyContent:"center",alignItems:'center',borderRadius:"10px",margin:"auto"}}>
-     <div className="container" >
+    
       {slide.map((slide,index)=>{
         return ( <img 
         key={slide.id}
@@ -69,7 +69,7 @@ const [open, setopen] = useState(false)
         )
       })}
    
-   </div>
+ 
   
   <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
      <p className="roboto-light-italic">
