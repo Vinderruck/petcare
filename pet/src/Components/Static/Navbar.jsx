@@ -40,7 +40,7 @@ const [open, setopen] = useState(false)
   return (
     <main className='w-full'>
     <div className="bg-white opacity-80 w-full Navbar">
-        <div className="logdiv"><img src={logo2} alt="logo" className="logo"/></div>
+        <div className="logdiv" style={{marginTop:"2px"}}><img src={logo2} alt="logo" className="logo"/></div>
     <div className="NavbarRight">
       <Link to="#home" className="navLinks">Home</Link>
     <Link to="#" className="navLinks">About</Link>
