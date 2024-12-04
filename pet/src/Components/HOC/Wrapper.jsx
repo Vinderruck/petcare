@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 import { FaFacebook , FaInstagramSquare,FaWhatsappSquare} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
  
 
 const Wrapper = (Component,IdName) => function HOC () {
@@ -13,7 +14,9 @@ const Wrapper = (Component,IdName) => function HOC () {
   < FaFacebook  className="bg-lime-500 wrappIcons" />
 
 < FaInstagramSquare className="bg-lime-500 wrappIcons" />
-<FaWhatsappSquare className="bg-lime-500 wrappIcons" /></div>
+<FaWhatsappSquare className="bg-lime-500 wrappIcons" />
+<MdEmail className="bg-lime-500 wrappIcons" />
+</div>
   </motion.div>
   )
 }

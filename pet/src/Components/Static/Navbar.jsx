@@ -88,6 +88,7 @@ const [open, setopen] = useState(false)
 <p className="text-[1.2rem] montserrat">Need urgent help? Call our emergency line:<br/>  +25400000000"</p>
 <p className="text-[1.2rem] montserrat"> Pet Care Tips for happy and healthy pets!"</p>
     </div>
+    
     <div className="footerdivs">
       <h2  className="text-[1.5rem] lobster-two-bold">Our Service</h2>
       <p className="text-[1.2rem] montserrat">Home BaseVisit for feeding</p>
