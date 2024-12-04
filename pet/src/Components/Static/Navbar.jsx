@@ -72,7 +72,7 @@ const [open, setopen] = useState(false)
  
   
   <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
-     <p className="roboto-light-italic">
+     <p className="text-[1.2rem] roboto-light-italic">
       Your pet's happiness, health, and well-being are our top priorities. At
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
@@ -107,7 +107,7 @@ const [open, setopen] = useState(false)
     </div>
     <div  className="footerdivs">
       <h2  className="text-[1.5rem] lobster-two-bold" style={{marginTop:"1rem"}}>Connect $ Chat</h2>
-      <p className="text-[1.2rem] montserrat">We are available to Reply on you <br/>text instantly
+      <p className="text-[1.2rem] montserrat">We are available to Reply to you <br/>text instantly
       <br/>so fell free to text us ....</p>
     </div>
    </div>
