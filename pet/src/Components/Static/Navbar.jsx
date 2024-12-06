@@ -85,7 +85,7 @@ const [open, setopen] = useState(false)
     <div className="footerdivs">
       <h2 className="text-[1.5rem] lobster-two-bold">Need help?</h2>
      <p className="text-[1.2rem] montserrat">Appointment Booking: "Schedule a service here."</p>  
-<p className="text-[1.2rem] montserrat">Need urgent help? Call our emergency line:<br/>  +25400000000"</p>
+<p className="text-[1.2rem] montserrat">Need urgent help? Call our emergency line:<br/>  +254723344630</p>
 <p className="text-[1.2rem] montserrat"> Pet Care Tips for happy and healthy pets!"</p>
     </div>
     
