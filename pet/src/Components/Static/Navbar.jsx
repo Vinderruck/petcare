@@ -105,8 +105,8 @@ Rafiki provides personalized,
 With Tazama Rafiki, you can rest easy knowing your pets will be in loving, 
 responsible hands. Let us take care of the <br/>details so you can enjoy your holiday without any worries!
     </p></div>
-    <div>
-    <h2  className="text-[1.5rem] lobster-two-bold"> At Site</h2> 
+    <div  className="flex flex-col justify-center">
+    <h2  className="text-[1.7rem] text-center underline montserrat"> At Site</h2> 
       
     <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
       <div className="imagediv"><img src={cattrearment} className="Siteimage"/></div>
