@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom';
-import {catdog, catplaying, catsitting, dogjump, Dogtraining, dogtreament, logo2} from "../../assets/index";
+import {catdog, catplaying, catsitting, cattrearment, dogjump, dogpla, dogrunning, Dogtraining, dogtreament, logo2, walkingdog} from "../../assets/index";
 import Wrapper from '../HOC/Wrapper';
 import './home.css'
 import { useEffect } from 'react';
@@ -105,6 +105,16 @@ Rafiki provides personalized,
 With Tazama Rafiki, you can rest easy knowing your pets will be in loving, 
 responsible hands. Let us take care of the <br/>details so you can enjoy your holiday without any worries!
     </p></div>
+    <div>
+    <h2  className="text-[1.5rem] lobster-two-bold"> At Site</h2> 
+      
+    <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
+      <div className="imagediv"><img src={cattrearment} className="Siteimage"/></div>
+      <div className="imagediv"><img src={walkingdog} className="Siteimage"/></div>
+      <div className="imagediv"><img src={dogpla} className="Siteimage"/></div>
+      <div className="imagediv"><img src={dogrunning} className="Siteimage"/></div>
+      </div>
+    </div>
   </div>
   
    <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">

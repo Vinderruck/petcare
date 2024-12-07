@@ -57,6 +57,19 @@ gap: 1rem;
     padding:0.2rem;
     
 }
+.imagediv{
+ margin:auto;
+width:70%;
+border-radius:10px;
+
+}
+.Siteimage{
+    width:100%;
+    object-fit:cover;
+    filter: brightness(1.2) contrast(1.2); /* Adjust the value as needed */
+    border-radius:10px;
+
+}
 .footer{
     justify-content:center;
     display:flex;

@@ -7,6 +7,10 @@
  import catsitting from './catsitting.jpg';
  import logo from './logopet.png';
  import logo2 from './logo2.jpg';
+ import dogpla from "./dogpla.jpg";
+ import twocats from './twocats.jpg';
+ import walkingdog from './walkingdog.jpg';
+ import cattrearment from "./cattreatment.jpg"
 
 
 export{
@@ -18,5 +22,9 @@ export{
     Dogtraining ,
     dogrunning,
     dogjump ,
-     catsitting   
+     catsitting,
+     dogpla,
+     twocats,
+     walkingdog,
+     cattrearment
     }
