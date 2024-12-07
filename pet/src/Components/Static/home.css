@@ -97,5 +97,11 @@ margin:6px;
 @media screen and (Min-width:900px){
     .slide{
   
-        height:450px}
+        height:500px}
+}
+@media screen and (Min-width:1500px){
+    .slide{
+  
+        height:800px
+    }
 }
