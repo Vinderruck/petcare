@@ -69,12 +69,12 @@ margin:6px;
     display:flex;
     flex-direction:column;
     text-align:center;
-    height:auto; 
+    height:40vh; 
    margin:auto ;
    
     width:80%;
     border-radius:20px;
-    box-shadow:1px 1px 2px 1px black
+    box-shadow:1px 1px 3px 1px black
 }
 
 @media screen and (Max-width:565px){
