@@ -14,6 +14,23 @@ const [currentIndex, setcurrentIndex] = useState(0)
 const [open, setopen] = useState(false)
 
 
+const handlemenucose =()=>{
+  if (window.scrollY > 0) {
+setopen(false)
+  } else {
+setopen(true)
+  }
+}
+
+ useEffect(() => {
+ window.addEventListener("scroll",handlemenucose)
+   
+   return ()=>{
+    window.removeEventListener("scroll",handlemenucose)
+   }
+ }, [])
+ 
+
   const slide=[
     {id:1, src:catdog,alt:'catdog'},
     // {id:1, src:catplaying,alt:'catdog'},
