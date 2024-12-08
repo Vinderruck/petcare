@@ -92,6 +92,7 @@ margin:6px;
 }
 
 @media screen and (Max-width:565px){
+    
     .NavbarRight{
         display:none;
     }
@@ -102,6 +103,12 @@ margin:6px;
         flex-direction: column;
     
 }
+
+}
+@media screen and (Min-Width:565px){
+    .NavIcon{
+        display:none;
+    }
 }
 @media screen and (Min-width:700px){
     .slide{
