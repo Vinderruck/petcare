@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const SignUp = () => {
   return (
     <div className="flex-col bg-white opacity-80 Loginform">
-             <div className="logdiv" style={{marginTop:"2px"}}><img src={logo2} alt="logo" className="logo"/></div>
+             <div className="logsign" style={{marginTop:"2px"}}><img src={logo2} alt="logo" className="logo1"/></div>
         <Form className="flex flex-col justify-center items-center bg-lime-500 w-[80%] overflow-auto formSign">
    
         <Form.Group className="flex flex-col gap-1 m-2 w-[80%]">
