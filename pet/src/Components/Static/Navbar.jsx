@@ -105,6 +105,20 @@ Rafiki provides personalized,
 With Tazama Rafiki, you can rest easy knowing your pets will be in loving, 
 responsible hands. Let us take care of the <br/>details so you can enjoy your holiday without any worries!
     </p></div>
+
+
+    <div id="service" className="m-auto" style={{justifyContent:"center",margin:'auto ',alignItems:"center",display:"flex",  flexDirection:"column"}}>
+    <h2  className="text-[1.7rem] text-center underline montserrat">Service</h2>
+    <ol  style={{text:'center',listStyleType: "bullet" }}  className="text-[1.2rem] montserrat" >
+      <li>Home Base Visit for Feeding</li>
+      <li>Administering medicine</li>
+      <li>Pet care for your long holiday</li>
+      <li>Behavioral consultation</li>
+      <li>Dog walking services</li>
+      <li>Pet training sessions</li>
+      <li>Diet planning for pets</li>
+    </ol>
+    </div>
     <div  className="flex flex-col justify-center">
     <h2  className="text-[1.7rem] text-center underline montserrat"> At Site</h2> 
       
