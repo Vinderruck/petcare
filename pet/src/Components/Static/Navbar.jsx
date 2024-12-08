@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import {Link} from 'react-router-dom';
+import React,{useState,} from 'react'
+import {Link, useNavigate} from 'react-router-dom';
 import {catdog, catplaying, catsitting, cattrearment, dogjump, dogpla, dogrunning, Dogtraining, dogtreament, logo2, walkingdog} from "../../assets/index";
 import Wrapper from '../HOC/Wrapper';
 import './home.css'
@@ -12,8 +12,14 @@ import AboutUs from './AboutUs';
 const Navbar = () => {
 const [currentIndex, setcurrentIndex] = useState(0)
 const [open, setopen] = useState(false)
+const navigate =useNavigate();
 
 
+//function that holds navigation to sign up
+
+const SignUp =() =>{
+  navigate('/Signup')
+}
 const handlemenucose =()=>{
   if (window.scrollY > 0) {
 setopen(false)
@@ -97,7 +103,7 @@ setopen(true)
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
- <Button style={{margin:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
+ <Button  onClick={SignUp} style={{margin:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
     </div> 
     </div> 
     <div style={{background:"white",width:"100%",height:"1px",justifyContent:"center", display:"flex",alignItems:"center", margin:"6px"}}/>

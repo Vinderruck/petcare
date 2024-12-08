@@ -2,6 +2,7 @@
  
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Navbar from './Components/Static/Navbar.jsx'
+import SignUp from './Components/Credentials/SignUp.jsx'
  
 function App() {
  document.documentElement.classList.add("bg-lime-500")
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
      <Routes>
       <Route path='/' element={<Navbar/>}/>
+      <Route path="/Signup" element={<SignUp/>}/>
      </Routes>
    </BrowserRouter>
     
