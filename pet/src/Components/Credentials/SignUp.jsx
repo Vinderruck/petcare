@@ -8,7 +8,7 @@ const SignUp = () => {
   return (
     <div className="flex-col bg-white opacity-80 Loginform">
              <div className="logdiv" style={{marginTop:"2px"}}><img src={logo2} alt="logo" className="logo"/></div>
-        <Form className="flex flex-col justify-center items-center bg-lime-500 w-[80%] formSign">
+        <Form className="flex flex-col justify-center items-center bg-lime-500 w-[80%] overflow-auto formSign">
    
         <Form.Group className="flex flex-col gap-1 m-2 w-[80%]">
             <Form.Label className="text-[1rem] montserrat"> Email</Form.Label>
@@ -30,7 +30,7 @@ const SignUp = () => {
 
             <Form.Control  type="password" placeholder="Confirm Your Password" className="justify-center w-full hover:cursor-pointer"/>
         </Form.Group>
-       <div className="justify-between items-center gap-2"> <Link to="#" >Admin LogIn</Link> <Link to="#">UserLog in</Link></div> 
+       <div className="flex justify-between items-center gap-2"> <Link to="#"  className="mr-7">Admin </Link> <Link to="#" className="ml-7">User</Link></div> 
         </Form>
     </div>
   )
