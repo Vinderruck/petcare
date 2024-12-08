@@ -109,10 +109,10 @@ responsible hands. Let us take care of the <br/>details so you can enjoy your ho
     <h2  className="text-[1.7rem] text-center underline montserrat"> At Site</h2> 
       
     <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
-      <div className="imagediv"><img src={cattrearment} className="Siteimage"/></div>
-      <div className="imagediv"><img src={walkingdog} className="Siteimage"/></div>
-      <div className="imagediv"><img src={dogpla} className="Siteimage"/></div>
-      <div className="imagediv"><img src={dogrunning} className="Siteimage"/></div>
+      <div className="imagediv"><img src={cattrearment} className="Siteimage" loading='lazy'/></div>
+      <div className="imagediv"><img src={walkingdog} className="Siteimage" loading='lazy'/></div>
+      <div className="imagediv"><img src={dogpla} className="Siteimage" loading='lazy'/></div>
+      <div className="imagediv"><img src={dogrunning} className="Siteimage" loading='lazy'/></div>
       </div>
     </div>
   </div>

@@ -66,8 +66,9 @@ border-radius:10px;
 .Siteimage{
     width:100%;
     object-fit:cover;
-    filter: brightness(1.2) contrast(1.2); /* Adjust the value as needed */
+    filter: brightness(1.2) contrast(1.5); /* Adjust the value as needed */
     border-radius:10px;
+    box-shadow:1px 1px 3px 1px black;
 
 }
 .footer{
