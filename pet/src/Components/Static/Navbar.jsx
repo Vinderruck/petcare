@@ -24,7 +24,7 @@ const handlemenucose =()=>{
   if (window.scrollY > 0) {
 setopen(false)
   } else {
-setopen(true)
+setopen(false)
   }
 }
 
