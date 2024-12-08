@@ -53,8 +53,8 @@ const [open, setopen] = useState(false)
    <div className="NavIcon" style={{width:"35px",height:"35px", boxShadow:"1px 1px 1px 1px black", borderRadius:"10px"}}> 
     <CiMenuKebab  onClick={()=>setopen(!open)} className="smIcon"/>
     {open &&(
-      <div className="navsmright bg-white" >
-     <ul> <li ><a href="#home" className="navLinks">Home</a></li>
+      <div className="navsmright bg-white p-3" >
+     <ul className="flex flex-col justify-center items-start"> <li ><a href="#home" className="navLinks">Home</a></li>
     <li ><a href="#about" className="navLinks">About</a></li>
     <li  ><a href="#service"> Service offered</a></li>
     </ul>
