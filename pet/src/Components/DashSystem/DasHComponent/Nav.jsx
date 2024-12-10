@@ -68,7 +68,7 @@ return
     
     {Sidebar &&(
      <div className="z-20 fixed flex flex-col bg-white opacity-80 item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
-      <div className= "w-[35px] h-[35px]"><MdClose className="p-2 w-[100%] h-[100%]" /></div>
+      <div className= "bg-white border rounded-full w-[35px] h-[35px]" onClick={()=>setsidebar(false)}><MdClose onClick={()=>setsidebar(false)} className="p-2 w-[100%] h-[100%]" /></div>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
