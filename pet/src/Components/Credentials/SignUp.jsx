@@ -1,5 +1,5 @@
 import React from 'react'
-import {Form} from "react-bootstrap";
+import {Form,Button} from "react-bootstrap";
 import "./Sign.css"
 import { logo2 } from '../../assets';
 import { Link } from 'react-router-dom';
@@ -30,6 +30,7 @@ const SignUp = () => {
 
             <Form.Control  type="password" placeholder="Confirm Your Password" className="justify-center w-full hover:cursor-pointer"/>
         </Form.Group>
+        <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-white opacity-80 text-[1rem] montserrat"  >Sign Up</Button>
        <div className="flex justify-between items-center gap-2"> <Link to="#"  className="mr-7">Admin </Link> <Link to="#" className="ml-7">User</Link></div> 
         </Form>
     </div>

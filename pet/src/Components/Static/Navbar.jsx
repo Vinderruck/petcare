@@ -23,9 +23,8 @@ const SignUp =() =>{
 const handlemenucose =()=>{
   if (window.scrollY > 0) {
 setopen(false)
-  } else {
-setopen(false)
-  }
+return
+  } 
 }
 
  useEffect(() => {
