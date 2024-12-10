@@ -7,6 +7,11 @@ import { logo2 } from '../../../assets';
 import { MdKeyboardArrowDown, MdOutlinePets,MdScheduleSend,MdInsertPhoto,MdClose  } from "react-icons/md";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { SiPivotaltracker } from "react-icons/si";
+import { FaUsersCog } from "react-icons/fa";
+import { FaServicestack } from "react-icons/fa6";
+import { GrOverview } from "react-icons/gr";
+import { IoAnalyticsOutline } from "react-icons/io5";
+import { IoMdSettings } from "react-icons/io";
  
 const Navbar = ({User}) => {
  const [Sidebar, setsidebar] = useState(false)
@@ -80,6 +85,20 @@ return
         <MdInsertPhoto  className="p-2 w-[100%] h-[100%]"/></div>Pet Photo and video Upload</span></Link>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         <SiPivotaltracker  className="p-2 w-[100%] h-[100%]"/></div>Pet Tracking and Gps</span></Link>
+
+
+
+        <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+        <FaUsersCog  className="p-2 w-[100%] h-[100%]"/>  </div>Manage User</span></Link>
+          <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+         <FaServicestack  className="p-2 w-[100%] h-[100%]"/> </div>Service Management</span></Link>
+          <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+         < GrOverview className="p-2 w-[100%] h-[100%]" /> </div>Appointment Overview</span></Link>
+          <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+         <IoAnalyticsOutline  className="p-2 w-[100%] h-[100%]"/> </div>Analytics</span></Link>
+          <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+         <IoMdSettings  className="p-2 w-[100%] h-[100%]"/> </div>System Setting</span></Link>
+           
      </div>
     )
   }</div>
