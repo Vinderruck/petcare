@@ -29,6 +29,15 @@
   box-shadow:1px 1px 4px 2px black;
 
 }
+.Navbar1{
+  position:fixed;
+  justify-content:space-between;
+  align-items:center;
+  display:flex;
+  height:110px;
+box-shadow:1px 1px 4px 2px black;
+
+}
 .NavbarRight{
 
     justify-content:space-between;
