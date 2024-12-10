@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Navbar } from './DasHComponent';
+import { Home, Navbar } from './DasHComponent';
 
 const Dash = () => {
     const [Componentset, setComponentset] = useState("Component1");
@@ -7,13 +7,23 @@ const Dash = () => {
 
 
     const RenderedComponent ={
-        Component1:<Navbar/>
+        Component1:<Home/>
+    }
+    const handleRender =(ComponentName)=>{
+        setComponentset(ComponentName)
+    }
+
+
+    const Rerender= ()=>{
+        return RenderedComponent[Componentset]
     }
   return (
-    <div>
-
+    <div style={{justifyContent:"center",display:"flex",flexDirection:"column"}}>
         <div>
             <Navbar/>
+        </div>
+        <div style={{marginTop:"6rem",marginLeft:"auto",marginRight:'auto',width:"100%",justifyContent:"center",alignItems:"center,"}}>
+            {Rerender()}
         </div>
     </div>
   )

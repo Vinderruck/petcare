@@ -12,6 +12,7 @@ import { FaServicestack } from "react-icons/fa6";
 import { GrOverview } from "react-icons/gr";
 import { IoAnalyticsOutline } from "react-icons/io5";
 import { IoMdSettings } from "react-icons/io";
+import { Button } from 'react-bootstrap';
  
 const Navbar = ({User}) => {
  const [Sidebar, setsidebar] = useState(false)
@@ -72,7 +73,7 @@ return
     
     
     {Sidebar &&(
-     <div className="z-20 fixed flex flex-col bg-white opacity-80 item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+     <div className="z-10 fixed flex flex-col bg-white opacity-80 blur-effect item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
       <div className= "bg-white border rounded-full w-[35px] h-[35px]" onClick={()=>setsidebar(false)}><MdClose onClick={()=>setsidebar(false)} className="p-2 w-[100%] h-[100%]" /></div>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
@@ -98,7 +99,7 @@ return
          <IoAnalyticsOutline  className="p-2 w-[100%] h-[100%]"/> </div>Analytics</span></Link>
           <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
          <IoMdSettings  className="p-2 w-[100%] h-[100%]"/> </div>System Setting</span></Link>
-           
+         <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-white opacity-80 text-[1rem] text-black wemontserrat" >LogOut</Button>
      </div>
     )
   }</div>
