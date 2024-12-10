@@ -4,10 +4,10 @@ import {Link, useNavigate} from 'react-router-dom';
 import { useEffect } from 'react';
 import { CiMenuKebab } from "react-icons/ci";
 import { logo2 } from '../../../assets';
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowDown, MdOutlinePets } from "react-icons/md";
  
-const Navbar = () => {
- 
+const Navbar = ({User}) => {
+ const [Sidebar, setsidebar] = useState(false)
 const [open, setopen] = useState(false)
 const navigate =useNavigate();
 
@@ -60,7 +60,21 @@ return
       </div>
     )}</div>
     </div>
-    <div style={{width:"35px",height:'35px'}} className="top-24 left-0 fixed bg-white opacity-80 mt-3 rounded" ><MdKeyboardArrowDown className="p-2 w-full h-full"/></div>
+    <div style={{width:"35px",height:'35px'}} className="top-24 left-0 fixed bg-white opacity-80 mt-3 rounded" >
+      <MdKeyboardArrowDown  onClick={()=>setsidebar(true)} className="p-2 w-full h-full"/>
+    
+    
+    {Sidebar &&(
+     <div className="fixed flex flex-col items-center bg-white opacity-80 mt-0 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+      <Link to="#"> <span className="flex justify-center gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+        < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
+      <Link to="#">Book Appointment</Link>
+      <Link to="#">Pet Care schedule</Link>
+      <Link to="#">Pet Photo and video Upload</Link>
+      <Link to="#">Pet Tracking and Gps</Link>
+     </div>
+    )
+  }</div>
     </main>
   )
 }
