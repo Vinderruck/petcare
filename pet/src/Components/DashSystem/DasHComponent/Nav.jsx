@@ -4,7 +4,7 @@ import {Link, useNavigate} from 'react-router-dom';
 import { useEffect } from 'react';
 import { CiMenuKebab } from "react-icons/ci";
 import { logo2 } from '../../../assets';
-import { MdKeyboardArrowDown, MdOutlinePets,MdScheduleSend,MdInsertPhoto } from "react-icons/md";
+import { MdKeyboardArrowDown, MdOutlinePets,MdScheduleSend,MdInsertPhoto,MdClose  } from "react-icons/md";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { SiPivotaltracker } from "react-icons/si";
  
@@ -67,7 +67,8 @@ return
     
     
     {Sidebar &&(
-     <div className="fixed flex flex-col bg-white opacity-80 item-center mt-0 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+     <div className="z-20 fixed flex flex-col bg-white opacity-80 item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+      <div className= "w-[35px] h-[35px]"><MdClose className="p-2 w-[100%] h-[100%]" /></div>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
