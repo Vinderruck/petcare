@@ -11,9 +11,14 @@
  import twocats from './twocats.jpg';
  import walkingdog from './walkingdog.jpg';
  import cattrearment from "./cattreatment.jpg"
+ import facebook from './Image/Vector.png';
+ import google from './Image/google.png';
+
 
 
 export{
+    facebook,
+    google,
     logo,
     logo2,
      catdog  ,
