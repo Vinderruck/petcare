@@ -14,7 +14,7 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { IoMdSettings } from "react-icons/io";
 import { Button } from 'react-bootstrap';
  
-const Navbar = ({User}) => {
+const Navbar = ({onLinkClick}) => {
  const [Sidebar, setsidebar] = useState(false)
 const [open, setopen] = useState(false)
 const navigate =useNavigate();
@@ -68,14 +68,14 @@ return
       </div>
     )}</div>
     </div>
-    <div style={{width:"35px",height:'35px'}} className="top-24 left-0 fixed bg-white opacity-80 mt-3 rounded" >
+    <div style={{width:"35px",height:'35px'}} className="top-24 left-0 fixed bg-white mt-3 rounded" >
       <MdKeyboardArrowDown  onClick={()=>setsidebar(true)} className="p-2 w-full h-full"/>
     
     
     {Sidebar &&(
-     <div className="z-10 fixed flex flex-col bg-white opacity-80 blur-effect item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+     <div className="z-1 fixed flex flex-col bg-white item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
       <div className= "bg-white border rounded-full w-[35px] h-[35px]" onClick={()=>setsidebar(false)}><MdClose onClick={()=>setsidebar(false)} className="p-2 w-[100%] h-[100%]" /></div>
-      <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+      <Link to="#" onClick={()=> {onLinkClick("Component2");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         <CiBookmarkCheck  className="p-2 w-[100%] h-[100%]"/></div>Book Appointment</span></Link>
