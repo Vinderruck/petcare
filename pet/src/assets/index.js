@@ -13,10 +13,12 @@
  import cattrearment from "./cattreatment.jpg"
  import facebook from './Image/Vector.png';
  import google from './Image/google.png';
+ import catown from "./catown.jpg"; 
 
 
 
 export{
+    catown,
     facebook,
     google,
     logo,

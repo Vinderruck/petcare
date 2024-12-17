@@ -1,6 +1,6 @@
 import React,{useState,} from 'react'
 import {Link, useNavigate} from 'react-router-dom';
-import {catdog, catplaying, catsitting, cattrearment, dogjump, dogpla, dogrunning, Dogtraining, dogtreament, logo2, walkingdog} from "../../assets/index";
+import {catdog, catown, catplaying, catsitting, cattrearment, dogjump, dogpla, dogrunning, Dogtraining, dogtreament, logo2, walkingdog} from "../../assets/index";
 import Wrapper from '../HOC/Wrapper';
 import './home.css'
 import { useEffect } from 'react';
@@ -36,31 +36,36 @@ return
  }, [])
  
 
-  const slide=[
-    {id:1, src:catdog,alt:'catdog'},
-    // {id:1, src:catplaying,alt:'catdog'},
-    // {id:1, src:catsitting,alt:'catdog'},
-    // {id:1, src:Dogtraining,alt:'catdog'},
+  // const slide=[
+  //   {id:1, src:catdog,alt:'catdog'},
+  //   // {id:1, src:catplaying,alt:'catdog'},
+  //   // {id:1, src:catsitting,alt:'catdog'},
+  //   // {id:1, src:Dogtraining,alt:'catdog'},
    
-  
+  //   {slide.map((slide,index)=>{
+  //     return ( <img 
+  //     key={slide.id}
+  //     src={slide.src} alt={slide.alt} className={`slide  ${index === currentIndex ? "active" : ""}`}/>
+  //     )
+  //   })}
     
     
-  ]
+  // ]
 
 
-  const nextslide =()=>{
-    setcurrentIndex((prevIndex) => (prevIndex + 1) % slide.length)
-  }
-  const preIndex = ()=>{
-    setcurrentIndex((prevIndex)=> prevIndex === 0 ? slide.length -1 : prevIndex - 1) 
-  }
+  // const nextslide =()=>{
+  //   setcurrentIndex((prevIndex) => (prevIndex + 1) % slide.length)
+  // }
+  // const preIndex = ()=>{
+  //   setcurrentIndex((prevIndex)=> prevIndex === 0 ? slide.length -1 : prevIndex - 1) 
+  // }
 
 
-  useEffect(() => {
-     const time =setInterval(nextslide,3000)
-     return ()=>clearInterval(time)
-  }, [])
-  
+  // useEffect(() => {
+  //    const time =setInterval(nextslide,3000)
+  //    return ()=>clearInterval(time)
+  // }, [])
+  // style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}
   return (
     <main className='w-full'>
     <div className="bg-white opacity-80 w-full Navbar">
@@ -84,25 +89,22 @@ return
     )}</div>
     </div>
     <h1 className="poppinsh2" style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
-   
-   <div style={{width:"80%",justifyContent:"center",alignItems:'center',borderRadius:"10px",margin:"auto"}}>
+   <div  style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
+   <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer" style={{width:"80%",justifyContent:"center",alignItems:'center',borderRadius:"10px",margin:"auto"}}>
     
-      {slide.map((slide,index)=>{
-        return ( <img 
-        key={slide.id}
-        src={slide.src} alt={slide.alt} className={`slide  ${index === currentIndex ? "active" : ""}`}/>
-        )
-      })}
+   <div className="imagediv"><img src={catdog} alt="cat dog" className="slide"/></div>
+   <div className="imagediv"><img src={catown} alt="cat" className="slide"/></div>
+   <div className="imagediv"><img src={dogrunning} alt="cat" className="slide"/></div>
+   </div>
    
- 
   
-  <div className="bg-slate-50 opacity-80" style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
+  <div className="flex flex-col justify-center items-center bg-slate-50 opacity-80 mt-2 p-3">
      <p className="text-[1.2rem] roboto-light-italic">
       Your pet's happiness, health, and well-being are our top priorities. At
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
- <Button  onClick={SignUp} style={{margin:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
+ <Button  onClick={SignUp} style={{marginLeft:"auto",marginRight:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
     </div> 
     </div> 
     <div style={{background:"white",width:"100%",height:"1px",justifyContent:"center", display:"flex",alignItems:"center", margin:"6px"}}/>
