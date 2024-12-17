@@ -92,9 +92,9 @@ return
    <div  style={{width:"100%",margin:"auto", padding:"1rem",borderRadius:"10px", height:"auto"}}>
    <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer" style={{width:"80%",justifyContent:"center",alignItems:'center',borderRadius:"10px",margin:"auto"}}>
     
-   <div className="imagediv"><img src={catdog} alt="cat dog" className="slide"/></div>
-   <div className="imagediv"><img src={catown} alt="cat" className="slide"/></div>
-   <div className="imagediv"><img src={dogrunning} alt="cat" className="slide"/></div>
+   <div className="imagediv2"><img src={catdog} alt="cat dog" className="slide"/></div>
+   <div className="imagediv2"><img src={catown} alt="cat" className="slide"/></div>
+   <div className="imagediv2"><img src={dogrunning} alt="cat" className="slide"/></div>
    </div>
    
   
