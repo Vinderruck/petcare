@@ -4,7 +4,7 @@
  const AboutUs = () => {
    return (
     <div > 
-    <h1 style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>About Us</h1>
+    <h1  className="poppinsh2" style={{justifyContent:"center",alignItems:"center",position: "sticky",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>About Us</h1>
     <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
     <p className="text-[1.2rem] montserrat">
     At Tazama Rafiki, we understand that your pets are more than just animals — they're family.

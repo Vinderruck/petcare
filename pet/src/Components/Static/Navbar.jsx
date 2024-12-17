@@ -83,7 +83,7 @@ return
       </div>
     )}</div>
     </div>
-    <h1  style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
+    <h1 className="poppinsh2" style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"white", fontSize:"1.5rem"}}>WElCOME TO TAZAMA RAFIKI PET CARE</h1>
    
    <div style={{width:"80%",justifyContent:"center",alignItems:'center',borderRadius:"10px",margin:"auto"}}>
     
@@ -112,7 +112,7 @@ return
 <AboutUs/>
   <Service/>
     <div  className="flex flex-col justify-center">
-    <h2  className="text-[1.7rem] text-center underline montserrat"> At Site</h2> 
+    <h2  className="text-[1.7rem] text-center underline poppinsh2"> At Site</h2> 
       
     <div className="gap-4 grid grid-cols-3 bg-slate-50 opacity-80 footer">
       <div className="imagediv"><img src={cattrearment} className="Siteimage" loading='lazy'/></div>

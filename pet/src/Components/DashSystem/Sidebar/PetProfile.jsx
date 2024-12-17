@@ -4,7 +4,7 @@ import "./Side.css"
 
 const PetProfile = () => {
   return (
-    <div className="justify-center items-start bg-white opacity-80 mt-4 mr-auto ml-auto w-[90%]">
+    <div className="z-1 justify-center items-start bg-white opacity-80 mt-4 mr-auto ml-auto w-[90%]">
 <Form className="flex flex-col justify-center items-center"> 
     <Form.Group className="flex flex-col justify-center items-center">
         <h2 className="text-[30px] text-center poppinsh2">Pet Details</h2>
