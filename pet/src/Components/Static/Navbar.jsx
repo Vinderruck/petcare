@@ -94,7 +94,8 @@ return
     
    <div className="imagediv2"><img src={catdog} alt="cat dog" className="slide"/></div>
    <div className="imagediv2"><img src={catown} alt="cat" className="slide"/></div>
-   <div className="imagediv2"><img src={dogrunning} alt="cat" className="slide"/></div>
+   <div className="imagediv2"><img src={Dogtraining} alt="cat" className="slide"/></div>
+    
    </div>
    
   

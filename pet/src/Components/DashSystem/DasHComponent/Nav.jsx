@@ -13,6 +13,7 @@ import { GrOverview } from "react-icons/gr";
 import { IoAnalyticsOutline } from "react-icons/io5";
 import { IoMdSettings } from "react-icons/io";
 import { Button } from 'react-bootstrap';
+import './Nav.css'
  
 const Navbar = ({onLinkClick}) => {
  const [Sidebar, setsidebar] = useState(false)
@@ -73,7 +74,7 @@ return
     
     
     {Sidebar &&(
-     <div className="z-1 fixed flex flex-col bg-white item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto">
+     <div className="fixed flex flex-col bg-white item-center -mt-7 rounded-md w-[60%] sm:w-[30%] overflow-auto sidebar">
       <div className= "bg-white border rounded-full w-[35px] h-[35px]" onClick={()=>setsidebar(false)}><MdClose onClick={()=>setsidebar(false)} className="p-2 w-[100%] h-[100%]" /></div>
       <Link to="#" onClick={()=> {onLinkClick("Component2");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>

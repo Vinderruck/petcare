@@ -15,12 +15,9 @@ const navigate =useNavigate()
     }
   return (
     <div className="flex-col bg-white opacity-80 Loginform">
-             <div className="logsign" style={{marginTop:"2px"}}><img src={logo2} alt="logo" className="logo1"/></div>
+              <div className="logsign" style={{marginTop:"2px",}}><img src={logo2} alt="logo" className="logo1"/></div>
         <Form className="flex flex-col justify-center items-center bg-lime-500 w-[90%] overflow-auto formSign">
-   <div>
-    <div className="flex justify-center items-center gap-1 m-2 w-full text-[1rem] montserrat socialLog"> <img src={google} className='p-1 w-[35px] h-[35px]'/>Continue with Google</div>
-    <div className="flex justify-center items-center gap-1 m-2 w-full text-[1rem] montserrat socialLog"> <img src={facebook} className='p-2 w-[35px] h-[35px]'/>Continue with facebook</div>
-   </div>
+        <h1  className="poppinsh2" style={{justifyContent:"center",alignItems:"center",textAlign:"center",margin:"3px",color:"black", fontSize:"1.5rem"}}>Sign up</h1>
         <Form.Group className="flex flex-col gap-1 m-2 w-[100%] sm:w-[80%]">
             <Form.Label className="text-[1rem] montserrat"> Email</Form.Label>
 
