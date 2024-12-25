@@ -100,7 +100,7 @@ return
          <IoAnalyticsOutline  className="p-2 w-[100%] h-[100%]"/> </div>Analytics</span></Link>
           <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
          <IoMdSettings  className="p-2 w-[100%] h-[100%]"/> </div>System Setting</span></Link>
-         <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-white opacity-80 text-[1rem] text-black wemontserrat" >LogOut</Button>
+         <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-lime-500 opacity-80 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >LogOut</Button>
      </div>
     )
   }</div>

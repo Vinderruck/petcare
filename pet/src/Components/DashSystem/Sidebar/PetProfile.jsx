@@ -8,33 +8,33 @@ const PetProfile = () => {
 <Form className="flex flex-col justify-center items-center w-full"> 
     <Form.Group className="flex flex-col justify-center items-center m-2 w-[80%] Form">
         <h2 className="text-[30px] text-center poppinsh2">Pet Details</h2>
-       <ul  className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Pet Name:
+       <ul  className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Pet Name:
             <Form.Control type="text" placeholder="Your Pet's Name"  className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Pet Type:
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Pet Type:
             <Form.Control type="text" placeholder="Pet type"  className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Breed:
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Breed:
             <Form.Control type="text" placeholder="Enter the breed" className="w-full sm:w-[50%] text-center sm:text-start" />
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Age/DOB:
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Age/DOB:
             <Form.Control  type="text" placeholder="Pet Age" className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Color
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Color
             <Form.Control type="text" placeholder="Pet color" className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 p-2">Gender
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 p-2 montserrat">Gender
             <Form.Control  type="text" placeholder="Enter Gender" className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3">Weight
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Weight
             <Form.Control type="text" placeholder="Enter pet weight" className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>
-        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 p-3" > Size 
-            <Form.Control type="text" placeholder="Pet Size"className="w-full sm:w-[50%] text-center sm:text-start"/>
+        <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 p-3 montserrat" > Size 
+            <Form.Control type="text" placeholder="Pet Size"className="w-full sm:w-[50%] text-center sm:text-start "/>
             </Form.Label> </ul>
         
     </Form.Group>
-    <Button className="bg-lime-500 m-3 rounded-md w-[30%] text-[1.5rem]">Save</Button>
+    <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-lime-500 opacity-80 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >Save</Button>
 </Form>
     </div>
   )
