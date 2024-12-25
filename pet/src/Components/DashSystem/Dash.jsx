@@ -1,5 +1,5 @@
 import React,{Component, useState} from 'react'
-import { Home, Navbar } from './DasHComponent';
+import { Booking, Home, Navbar } from './DasHComponent';
 import { PetProfile } from './Sidebar';
 
 const Dash = () => {
@@ -9,7 +9,8 @@ const Dash = () => {
 
     const RenderedComponent ={
         Component1:<Home/>,
-        Component2:<PetProfile/>
+        Component2:<PetProfile/>,
+        Component3:<Booking/>
     }
     const handleRender =(ComponentName)=>{
         setComponentset(ComponentName)

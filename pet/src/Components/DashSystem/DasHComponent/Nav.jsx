@@ -78,7 +78,7 @@ return
       <div className= "bg-white border rounded-full w-[35px] h-[35px]" onClick={()=>setsidebar(false)}><MdClose onClick={()=>setsidebar(false)} className="p-2 w-[100%] h-[100%]" /></div>
       <Link to="#" onClick={()=> {onLinkClick("Component2");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
-      <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+      <Link to="#"  onClick={()=> {onLinkClick("Component3");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         <CiBookmarkCheck  className="p-2 w-[100%] h-[100%]"/></div>Book Appointment</span></Link>
       <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
    
