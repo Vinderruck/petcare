@@ -7,7 +7,7 @@ const PetProfile = () => {
     <div className="z-1 justify-center items-start bg-white mt-6 mr-auto ml-auto w-[90%] h-auto">
 <Form className="flex flex-col justify-center items-center w-full"> 
     <Form.Group className="flex flex-col justify-center items-center m-2 w-[80%] Form">
-        <h2 className="text-[30px] text-center poppinsh2">Pet Details</h2>
+        <h2 className="text-[25px] text-center sm:text-[30px] poppinsh2">Pet Details</h2>
        <ul  className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Pet Name:
             <Form.Control type="text" placeholder="Your Pet's Name"  className="w-full sm:w-[50%] text-center sm:text-start"/>
         </Form.Label></ul>

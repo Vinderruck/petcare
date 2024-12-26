@@ -12,7 +12,7 @@ const Booking = () => {
     <div className="z-1 justify-center items-start bg-white mt-6 mr-auto ml-auto w-[90%] h-auto overflow-auto">
     <Form className="flex flex-col justify-center items-center w-full overflow-auto"> 
         <Form.Group className="flex flex-col justify-center items-center m-2 w-[80%] Form">
-            <h2 className="text-center sm:text-[30px] poppinsh2 text:-[25px]">Book Appointment</h2>
+            <h2 className="text-[25px] text-center sm:text-[30px] poppinsh2">Book Appointment</h2>
            <ul  className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Service
                 <Form.Select type="text" placeholder="Select Service"  className="w-full sm:w-[50%] text-center sm:text-start" >
                 <option selected disabled>Choose service</option>
@@ -27,7 +27,7 @@ const Booking = () => {
                 </Form.Select>
             </Form.Label></ul>
             <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Date:
-                <Form.Control type="date" placeholder="Pet type"  className="w-full sm:w-[50%] text-center sm:text-start"/>
+                <Form.Control type="date" placeholder=" date"  className="w-full sm:w-[50%] text-center sm:text-start"/>
             </Form.Label></ul>
             <ul className="w-full"> <Form.Label className="flex sm:flex-row flex-col justify-between items-center gap-2 m-3 montserrat">Time:
                 <Form.Control type="time" placeholder="Enter the breed" className="w-full sm:w-[50%] text-center sm:text-start" />
@@ -70,7 +70,7 @@ const Booking = () => {
             
             
         </Form.Group>
-        <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-lime-500 opacity-80 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >Confirm</Button>
+        <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-lime-500 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >Confirm</Button>
     </Form>
         </div>
   )

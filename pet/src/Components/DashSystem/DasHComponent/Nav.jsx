@@ -42,7 +42,10 @@ return
 
    
 
-
+const Alert =()=>{
+ 
+   alert("We are sorry to tell you that this service is amoung our future plan we shall let you know once ready")
+}
    
 
  
@@ -80,12 +83,12 @@ return
         < MdOutlinePets className="p-2 w-[100%] h-[100%]"/></div> Pet Profile</span></Link>
       <Link to="#"  onClick={()=> {onLinkClick("Component3");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         <CiBookmarkCheck  className="p-2 w-[100%] h-[100%]"/></div>Book Appointment</span></Link>
-      <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+      <Link to="#" onClick={()=> {onLinkClick("Component4");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
    
       <MdScheduleSend  className="p-2 w-[100%] h-[100%]" /></div>Pet Care schedule</span></Link>
-      <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
-        <MdInsertPhoto  className="p-2 w-[100%] h-[100%]"/></div>Pet Photo and video Upload</span></Link>
-      <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+      <Link to="#" onClick={()=> {onLinkClick("Component5");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
+        <MdInsertPhoto  className="p-2 w-[100%] h-[100%]"/></div>Pet Photos</span></Link>
+      <Link to="#" onClick={Alert}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]"> 
         <SiPivotaltracker  className="p-2 w-[100%] h-[100%]"/></div>Pet Tracking and Gps</span></Link>
 
 

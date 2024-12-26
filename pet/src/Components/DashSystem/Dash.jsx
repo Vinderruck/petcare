@@ -1,6 +1,6 @@
 import React,{Component, useState} from 'react'
 import { Booking, Home, Navbar } from './DasHComponent';
-import { PetProfile } from './Sidebar';
+import { Gallary, PetProfile, Schedule } from './Sidebar';
 
 const Dash = () => {
     const [Componentset, setComponentset] = useState("Component1");
@@ -10,7 +10,9 @@ const Dash = () => {
     const RenderedComponent ={
         Component1:<Home/>,
         Component2:<PetProfile/>,
-        Component3:<Booking/>
+        Component3:<Booking/>,
+        Component4:<Schedule/>,
+        Component5:<Gallary/>
     }
     const handleRender =(ComponentName)=>{
         setComponentset(ComponentName)
