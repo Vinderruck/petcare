@@ -7,7 +7,7 @@ const Gallary = () => {
     <Form className="flex flex-col justify-center items-center w-full"> 
         <Form.Group className="flex flex-col justify-center items-center m-2 w-[80%] Form">
             <h2 className="text-[25px] text-center sm:text-[30px] poppinsh2">Pet Gallary</h2>
-            <Form.Control  type="file" className="w-full sm:w-[50%] text-center sm:text-start"/>
+            <Form.Control  type="file" accept='image/*' className="w-full sm:w-[50%] text-center sm:text-start"/>
             </Form.Group>
            
            <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}}  className="bg-lime-500 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >Create</Button>

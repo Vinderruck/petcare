@@ -93,7 +93,7 @@ const Alert =()=>{
 
 
 
-        <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
+        <Link to="#" onClick={()=> {onLinkClick("Component6");setsidebar(false)}}> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
         <FaUsersCog  className="p-2 w-[100%] h-[100%]"/>  </div>Manage User</span></Link>
           <Link to="#"> <span className="flex justify-start gap-3 item-center"> <div className="flex justify-center items-center shadow-md w-[35px] h-[35px]">
          <FaServicestack  className="p-2 w-[100%] h-[100%]"/> </div>Service Management</span></Link>
