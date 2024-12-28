@@ -105,7 +105,7 @@ return
       Tazama Rafiki pet care, we provide exceptional care, trusted advice, and a
       loving touch for every furry, feathered, or scaly friend. 🐾
     </p>
- <Button  onClick={SignUp} style={{marginLeft:"auto",marginRight:"auto",display:"flex",justifyContent:"center",boxShadow:"1px 1px 3px 1px black", padding:"5px",borderRadius:"10px"}}>Book Now</Button>
+    <Button style={{boxShadow:"1px 1px 2px 1px black",borderRadius:"10px", padding:"2px"}} onClick={SignUp}  className="bg-lime-500 m-3 rounded-md w-[30%] text-[1rem] text-black montserrat" >Book Now</Button>
     </div> 
     </div> 
     <div style={{background:"white",width:"100%",height:"1px",justifyContent:"center", display:"flex",alignItems:"center", margin:"6px"}}/>
